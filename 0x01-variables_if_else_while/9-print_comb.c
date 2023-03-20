@@ -1,23 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Program to print 0 to 9 seperated by commas
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i = '0';
+	int i = 48;
 
-	while (i < '9')
+	while (i < 58)
 	{
 		putchar(i);
-		putchar(',');
-		putchar(' ');
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
 		i++;
 	}
 
-	putchar('9');
+	putchar('\n');
 
 	return (0);
 }
