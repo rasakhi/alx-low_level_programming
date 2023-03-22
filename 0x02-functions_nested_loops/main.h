@@ -44,4 +44,8 @@ int _abs(int);
  * Return: last digit of n
  */
 int print_last_digit(int);
+/**
+ * jack_bauer - prints every minute of the day
+ */
+void jack_bauer(void);
 #endif
