@@ -8,6 +8,12 @@ void _puts(char *str)
 {
 	_putchar(*str);
 
+	if (*str == ' ')
+	{
+		_putchar('\n');
+	}
+	else
+	{
 	while (*str++)
 	{
 		if (*str != '\0')
@@ -17,4 +23,5 @@ void _puts(char *str)
 	}
 
 	_putchar('\n');
+	}
 }
