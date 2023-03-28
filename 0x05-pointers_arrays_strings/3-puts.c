@@ -6,14 +6,14 @@
  */
 void _puts(char *str)
 {
-	_putchar(*str);
-
 	if (*str == ' ')
 	{
 		_putchar('\n');
 	}
 	else
 	{
+	_putchar(*str);
+
 	while (*str++)
 	{
 		if (*str != '\0')
