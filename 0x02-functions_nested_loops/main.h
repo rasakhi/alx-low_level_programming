@@ -60,4 +60,8 @@ int add(int, int);
  * print_to_98 - prints all natural numbers from n to 98
  */
 void print_to_98(int n);
+/**
+ * print_times_table - prints the n times table starting from 0
+ */
+void print_times_table(int n);
 #endif
