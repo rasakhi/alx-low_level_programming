@@ -4,7 +4,7 @@
 /**
  * dog_type - Type definition for struct dog
  */
-typedef struct dog dog_type;
+typedef struct dog dog_t;
 
 /**
  * struct dog - struct that stores the information about dogs
